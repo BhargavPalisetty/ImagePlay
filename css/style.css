@@ -1,0 +1,41 @@
+
+body{
+  position:relative;
+  background:#593004;
+  font-family:"Times New Roman";
+  font-style: italic;
+  font-size:50px;
+  text-align:center;
+  color:white;
+  font-weight: 700;
+ }
+
+:root{
+  --spacing:10px;
+  --base:#42f445;
+  --blur:1px;
+}
+
+
+img{
+  border-radius:30px;
+  margin:100px;
+  height:800px;
+  width:1000px;
+  padding:var(--spacing);
+  background:var(--base);
+  filter:blur(var(--blur));
+}
+
+.js{
+  color:var(--base);
+}
+
+.container{
+ margin: 20px 20px 20px 20px;
+ padding:0 1px 0 1px; 
+}
+
+.param{
+  margin:10px 10px 10px 10px;
+}
